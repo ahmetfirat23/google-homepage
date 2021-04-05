@@ -6,6 +6,8 @@ body { position:absolute; top:0; bottom:0; right:0; left:0; }
     flex-direction: column;
     margin: 20px 0px 0px 0px;
     justify-content: space-between;
+    font-family: "Roboto";
+    color: rgb(75,75,75);
 }
 
 nav{
@@ -27,9 +29,32 @@ a:active{
     color:inherit;
 }
 nav{
-    font-size: 15px;
+    font-size: 14px;
 }
 
+#signin{
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(73, 70, 247);
+    color:white;
+    border-radius: 5px;
+}
+
+.button{
+    margin-top: 40px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+#searchinput{
+    width: 500px;
+    height: 40px;
+    border: 1px solid rgba(165, 165, 165, 0.534);
+    border-radius: 50px;
+    font-size: 20px;
+    color:rgb(75,75,75);
+}
 
 ul{
     list-style-type: none;
@@ -37,21 +62,48 @@ ul{
     padding: 0;
 }
 li{
-    display: inline;
+    display: inline;  
+}
+
+li.uplist{
+    padding-right: 20px;
+}
+
+li.downlist{
+    padding-right: 40px;
 }
 
 main{
     align-self: center;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
+#langtext{
+    font-size: 14px;    
+}
+#olang{
+    color: rgb(34, 0, 156);
+}
 
 footer{
-    background-color: #e7e7e7;
-    font-size: 18px;
+    background-color: #f6f6f6;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+
+hr {
+    border-top: 1px solid #eaeaea;
+    margin:0px;
+}
+
+#flocation{
+    padding: 15px 40px 15px 40px;
 }
 
 #fcontent{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 15px 40px 15px 40px;
 }

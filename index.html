@@ -3,27 +3,29 @@
     <head>
         <title>Google</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     </head>
 
     <body>
         <nav>
             <ul>
-                <li><a href=#>Gmail</a></li>
-                <li><a href=#>Görseller</a></li>
-                <li><img class="navicon" src="" alt="Dropdownmenu"></li>
-                <li><img class="navicon" src="" alt="Profilephoto"></li>
+                <li class="uplist"><a href=#>Gmail</a></li>
+                <li class="uplist"><a href=#>Görseller</a></li>
+                <li class="uplist"><img class="navicon" src="gridicon.png" alt="Dropdownmenu"></li>
+                <li class="uplist"><a id=signin href=#>Oturum açın</a></li>
             </ul>
         </nav>
 
         <main>
-            <img class="logo" src="https://www.google.com.tr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <img class="logo" src="https://www.google.com/logos/doodles/2021/sadri-alsks-94th-birthday-6753651837108902-l.png" height="200" width="500">
             <form>
                 <input type="text" id="searchinput" name="searchinput">
-                <input type="submit" value="Google'da Ara">
-                <input type="submit" value="Kendimi Şanslı Hissediyorum">
+                <br>
+                <input type="submit" value="Google'da Ara" class="button">
+                <input type="submit" value="Kendimi Şanslı Hissediyorum" class="button">
             </form>
             <p id="langtext">
-                Google'ı kullanabileceğiniz diğer diller: <a href=#>English</a>
+                Google'ı kullanabileceğiniz diğer diller: <a href=# id="olang">English</a>
             </p>
         </main>
 
@@ -31,17 +33,18 @@
             <div id="flocation">
                 Türkiye
             </div>
+            <hr>
             <div id="fcontent">
                 <ul id="fcleft">
-                    <li><a href=#>Hakkında</a></li>
-                    <li><a href=#>Reklam</a></li>
-                    <li><a href=#>İşletme</a></li>
-                    <li><a href=#>Arama nasıl çalışır?</a></li>
+                    <li class="downlist"><a href=#>Hakkında</a></li>
+                    <li class="downlist"><a href=#>Reklam</a></li>
+                    <li class="downlist"><a href=#>İşletme</a></li>
+                    <li class="downlist"><a href=#>Arama nasıl çalışır?</a></li>
                 </ul>
                 <ul id="fcright">
-                    <li><a href=#>Gizlilik</a></li>
-                    <li><a href=#>Şartlar</a></li>
-                    <li><a href=#>Ayarlar</a></li>
+                    <li class="downlist"><a href=#>Gizlilik</a></li>
+                    <li class="downlist"><a href=#>Şartlar</a></li>
+                    <li class="downlist"><a href=#>Ayarlar</a></li>
                 </ul>
             </div>
         </footer>
